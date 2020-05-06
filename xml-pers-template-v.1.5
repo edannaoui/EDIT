@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>name of person</title> 
+            <respStmt>
+               <resp>Done by</resp>
+               <persName role="Cataloguer" when="2020">
+                  <email></email>
+               </persName>
+               <persName role="Encoder" when="2020">
+                  <email></email>
+               </persName>
+               <persName role="Editor" when="2020">
+                  <email></email>
+               </persName>   
+            </respStmt>          </titleStmt>
+         <editionStmt>
+            <edition n="1.0"></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Digital Humanities Center (DHC) - University of Balamand (UOB)- Lebanon
+               <email>dhc@uob-dh.org</email>
+            </publisher> 
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            <person xml:id="pr-0001-J.chrysostom">
+               
+               <!-- traits -->
+               <persName type="Uniform" xml:lang="en">John Chrysostom, Saint</persName>
+               <persName type="Uniform" xml:lang="ar">يوحنا الذهبي الفم، القديس</persName>
+               <persName type="Uniform" xml:lang="la">John Chrysostom, Saint</persName>
+               <persName type="Uniform" xml:lang="gr">Ιωάννης ο Χρυσόστομος</persName>
+               <idno type="VIAF">305214868</idno>
+               
+               <sex value="M">Male</sex>
+               <note type="biography">.....</note>
+               
+               <!-- events -->
+               <birth>
+                  <date>ca. ...</date>
+                  <placeName key="pl-0004-..."/>
+               </birth>
+               <death>
+                  <date>ca. ....</date>
+                  <placeName key="pl-0005-..."></placeName>
+               </death>
+               
+               <listEvent>
+                  <event n="1"><p></p></event>
+                  <event n="2"><p></p></event>
+               </listEvent>
+               
+               <!-- states -->
+               <occupation></occupation>
+               <state type="deacon" from="0400-01-01" notAfter-custom="405"></state>
+               
+               <!-- external resources -->
+               <listBibl>
+                  <bibl type="primary" n="1"></bibl>
+                  <bibl type="primary" n="2"></bibl>
+                  <bibl type="secondary" n="1"></bibl>
+                  <bibl type="secondary" n="2"></bibl>
+                  <bibl type="repertory">GCAL III pp. 628-631</bibl>
+               </listBibl>
+            </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>
